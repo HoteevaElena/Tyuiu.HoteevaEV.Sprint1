@@ -36,7 +36,7 @@ namespace Tyuiu.HoteevaEV.Sprint1.Task4.V24
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("lnxy/(x+sqrt(2*y^2) = " + Math.Round(ds.Calculate(x, y), 3));
+            Console.WriteLine("(lnx * y) / (x + sqrt(2 * y^2) = " + Math.Round(ds.Calculate(x, y), 3));
 
             Console.ReadKey();
         }
