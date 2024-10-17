@@ -7,7 +7,7 @@ namespace Tyuiu.HoteevaEV.Sprint1.Task4.V24.Lib
         public double Calculate(double x, double y)
         {
             var res = (Math.Log(x) * y) / (x + Math.Sqrt(2 * (Math.Pow(y, 2))));
-            return res;
+            return Math.Round(res, 3);
         }
     }
 }
