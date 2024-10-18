@@ -27,10 +27,10 @@ namespace Tyuiu.HoteevaEV.Sprint1.Task7.V7
 
             double x, y;
 
-            Console.WriteLine("Введите Х: ");
+            Console.WriteLine("Введите x: ");
             x = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Введите Y: ");
+            Console.WriteLine("Введите y: ");
             y = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
