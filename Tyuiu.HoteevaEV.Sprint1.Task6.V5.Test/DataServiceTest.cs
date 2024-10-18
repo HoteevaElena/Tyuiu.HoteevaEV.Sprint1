@@ -9,9 +9,9 @@ namespace Tyuiu.HoteevaEV.Sprint1.Task6.V5.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            string word = "шалаш";
+            string word = "хороший шалаш";
             var res = ds.CheckSymmetricalWords(word);
-            Assert.AreEqual(word, res);
+            Assert.AreEqual("шалаш", res);
 
         }
     }

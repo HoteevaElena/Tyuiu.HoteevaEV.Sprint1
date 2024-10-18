@@ -6,20 +6,21 @@ namespace Tyuiu.HoteevaEV.Sprint1.Task6.V5.Lib
     {
         public string CheckSymmetricalWords(string value)
         {
-            char[] s = value.ToArray();
-            string value2 = "";
-            for (int i = s.Length - 1; i >= 0; i--)
+            string[] str = value.Split(' ');
+            foreach (string w in str)
             {
-                value2 += s[i];
+                char[] s = w.ToArray();
+                string value2 = "";
+                for (int j = s.Length - 1; j >= 0; j--)
+                {
+                    value2 += s[j];
+                }
+                if (w == value2)
+                {
+                    return value2;
+                }
             }
-            if(value == value2)
-            {
-                return value;
-            }
-            else
-            {
-                return "-1";
-            }
+            return "0";
         }
     }
 }
